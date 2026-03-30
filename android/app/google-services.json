@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "220256040413",
+    "project_id": "paylyht",
+    "storage_bucket": "paylyht.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:220256040413:android:8e9944c1341f86e496f234",
+        "android_client_info": {
+          "package_name": "ht.payly.tev"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzcSaM_1iVSBrM1Ouk_8nySPs9hjNZbIg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
