@@ -61,13 +61,13 @@ class _CustomCountryPickerWidgetState extends State<CustomCountryPickerWidget> {
                   style: Get.isDarkMode
                       ? CustomStyle.darkHeading3TextStyle.copyWith(
                           color:
-                              CustomColor.primaryDarkTextColor.withOpacity(alpha:0.3),
+                              CustomColor.primaryDarkTextColor.withOpacity(0.3),
                           fontWeight: FontWeight.normal,
                           fontSize: Dimensions.headingTextSize5,
                         )
                       : CustomStyle.lightHeading3TextStyle.copyWith(
                           color: CustomColor.primaryLightTextColor
-                              .withOpacity(alpha:0.3),
+                              .withOpacity(0.3),
                           fontWeight: FontWeight.normal,
                           fontSize: Dimensions.headingTextSize5,
                         ),
@@ -75,7 +75,7 @@ class _CustomCountryPickerWidgetState extends State<CustomCountryPickerWidget> {
                 isExpanded: true,
                 icon: Icon(
                   Icons.keyboard_arrow_down,
-                  color: Colors.white.withOpacity(alpha:0.5),
+                  color: Colors.white.withOpacity(0.5),
                   size: Dimensions.iconSizeDefault * 1.5,
                 ),
                 value: widget.value,

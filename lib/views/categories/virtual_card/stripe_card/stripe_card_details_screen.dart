@@ -137,7 +137,7 @@ class StripeCardDetailsScreen extends StatelessWidget {
                   CustomTitleHeadingWidget(
                     text: Strings.revealDetails,
                     style: CustomStyle.darkHeading4TextStyle.copyWith(
-                      color: CustomColor.primaryLightTextColor.withOpacity(alpha:0.4),
+                      color: CustomColor.primaryLightTextColor.withOpacity(0.4),
                     ),
                   ),
                   Obx(
@@ -160,7 +160,7 @@ class StripeCardDetailsScreen extends StatelessWidget {
                                   ? Icons.visibility_off
                                   : Icons.visibility,
                               color: CustomColor.primaryLightTextColor
-                                  .withOpacity(alpha:0.4),
+                                  .withOpacity(0.4),
                             ),
                           ),
                   ),
@@ -172,7 +172,7 @@ class StripeCardDetailsScreen extends StatelessWidget {
                   CustomTitleHeadingWidget(
                     text: Strings.freezeCard,
                     style: CustomStyle.darkHeading4TextStyle.copyWith(
-                      color: CustomColor.primaryLightTextColor.withOpacity(alpha:0.4),
+                      color: CustomColor.primaryLightTextColor.withOpacity(0.4),
                     ),
                   ),
                   Obx(
@@ -182,10 +182,10 @@ class StripeCardDetailsScreen extends StatelessWidget {
                           )
                         : Switch(
                             activeColor: CustomColor.primaryLightTextColor
-                                .withOpacity(alpha:0.6),
+                                .withOpacity(0.6),
                             inactiveThumbColor: CustomColor
                                 .primaryLightTextColor
-                                .withOpacity(alpha:0.6),
+                                .withOpacity(0.6),
                             value: controller.isSelected.value,
                             onChanged: ((value) {
                               controller.isSelected.value =

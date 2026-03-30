@@ -94,7 +94,7 @@ class PaymentsScreenMobile extends StatelessWidget {
         padding: EdgeInsets.only(
           left: Dimensions.paddingHorizontalSize * 0.25,
         ),
-        titleTextColor: CustomColor.primaryTextColor.withOpacity(alpha:.15),
+        titleTextColor: CustomColor.primaryTextColor.withOpacity(.15),
         titleStyle: CustomStyle.darkHeading3TextStyle.copyWith(
           fontWeight: FontWeight.w400,
           fontSize: Dimensions.headingTextSize3,
@@ -182,7 +182,7 @@ class PaymentsScreenMobile extends StatelessWidget {
       padding: EdgeInsets.only(
         left: Dimensions.paddingHorizontalSize * 0.25,
       ),
-      titleTextColor: CustomColor.primaryLightTextColor.withOpacity(alpha:.30),
+      titleTextColor: CustomColor.primaryLightTextColor.withOpacity(.30),
       titleStyle: CustomStyle.darkHeading3TextStyle.copyWith(
         fontWeight: FontWeight.w400,
         fontSize: Dimensions.headingTextSize3,
@@ -217,8 +217,8 @@ class PaymentsScreenMobile extends StatelessWidget {
                 ),
                 side: BorderSide(
                   color: Get.isDarkMode
-                      ? CustomColor.primaryDarkTextColor.withOpacity(alpha:0.50)
-                      : CustomColor.primaryLightTextColor.withOpacity(alpha:0.50),
+                      ? CustomColor.primaryDarkTextColor.withOpacity(0.50)
+                      : CustomColor.primaryLightTextColor.withOpacity(0.50),
                 ),
               ),
             ),
@@ -229,7 +229,7 @@ class PaymentsScreenMobile extends StatelessWidget {
             fontWeight: FontWeight.w500,
             color: Get.isDarkMode
                 ? CustomColor.primaryDarkTextColor
-                : CustomColor.primaryLightTextColor.withOpacity(alpha:.6),
+                : CustomColor.primaryLightTextColor.withOpacity(.6),
           ),
         ],
       ),

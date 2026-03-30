@@ -35,7 +35,7 @@ class TransactionWidget extends StatelessWidget {
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(Dimensions.radius),
           color: Get.isDarkMode
-              ? CustomColor.whiteColor.withOpacity(alpha:0.06)
+              ? CustomColor.whiteColor.withOpacity(0.06)
               : CustomColor.whiteColor,
         ),
         padding: EdgeInsets.only(right: Dimensions.paddingSize * 0.2),
@@ -51,7 +51,7 @@ class TransactionWidget extends StatelessWidget {
                 ),
                 alignment: Alignment.center,
                 decoration: BoxDecoration(
-                  color: CustomColor.primaryLightColor.withOpacity(alpha:0.04),
+                  color: CustomColor.primaryLightColor.withOpacity(0.04),
                   borderRadius: BorderRadius.circular(Dimensions.radius * 0.6),
                 ),
                 child: Column(
@@ -100,10 +100,10 @@ class TransactionWidget extends StatelessWidget {
                       ),
                       decoration: BoxDecoration(
                         color: status == 'Pending'
-                            ? CustomColor.yellowColor.withOpacity(alpha:0.8)
+                            ? CustomColor.yellowColor.withOpacity(0.8)
                             : status == 'success'
-                                ? CustomColor.greenColor.withOpacity(alpha:0.8)
-                                : CustomColor.redColor.withOpacity(alpha:0.8),
+                                ? CustomColor.greenColor.withOpacity(0.8)
+                                : CustomColor.redColor.withOpacity(0.8),
                         borderRadius: BorderRadius.circular(Dimensions.radius),
                       ),
                       child: TitleHeading5Widget(
@@ -122,10 +122,10 @@ class TransactionWidget extends StatelessWidget {
                       ),
                       decoration: BoxDecoration(
                         color: status == '2' || status == '0'
-                            ? CustomColor.yellowColor.withOpacity(alpha:0.8)
+                            ? CustomColor.yellowColor.withOpacity(0.8)
                             : status == '1'
-                                ? CustomColor.greenColor.withOpacity(alpha:0.8)
-                                : CustomColor.redColor.withOpacity(alpha:0.8),
+                                ? CustomColor.greenColor.withOpacity(0.8)
+                                : CustomColor.redColor.withOpacity(0.8),
                         borderRadius: BorderRadius.circular(Dimensions.radius),
                       ),
                       child: TitleHeading5Widget(

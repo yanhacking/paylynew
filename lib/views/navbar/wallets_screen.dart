@@ -39,8 +39,8 @@ class WalletsScreen extends StatelessWidget {
               ),
               decoration: BoxDecoration(
                 color: Get.isDarkMode
-                    ? CustomColor.whiteColor.withOpacity(alpha:0.06)
-                    : CustomColor.primaryLightColor.withOpacity(alpha:0.06),
+                    ? CustomColor.whiteColor.withOpacity(0.06)
+                    : CustomColor.primaryLightColor.withOpacity(0.06),
                 borderRadius: BorderRadius.circular(Dimensions.radius * 1.4),
               ),
               child: _buildWalletItem(wallets[index]),

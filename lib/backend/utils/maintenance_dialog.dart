@@ -22,8 +22,8 @@ class MaintenanceDialog {
             width: double.infinity,
             height: double.infinity,
             color: Get.isDarkMode
-                ? CustomColor.primaryDarkTextColor.withOpacity(alpha:0.2)
-                : CustomColor.primaryTextColor.withOpacity(alpha:0.2),
+                ? CustomColor.primaryDarkTextColor.withOpacity(0.2)
+                : CustomColor.primaryTextColor.withOpacity(0.2),
             padding: EdgeInsets.symmetric(
               horizontal: Dimensions.paddingHorizontalSize * 0.8,
             ),

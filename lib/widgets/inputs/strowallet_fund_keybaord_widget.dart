@@ -112,7 +112,7 @@ class StrowalletAddFundWidget extends StatelessWidget {
                         contentPadding: EdgeInsets.zero,
                         hintText: '0.0',
                         hintStyle: CustomStyle.darkHeading2TextStyle.copyWith(
-                          color: CustomColor.primaryTextColor.withOpacity(alpha:0.7),
+                          color: CustomColor.primaryTextColor.withOpacity(0.7),
                           fontSize: Dimensions.headingTextSize3 * 2,
                         ),
                       ),

@@ -32,7 +32,7 @@ class DetailsRowWidget extends StatelessWidget {
             style: CustomStyle.darkHeading4TextStyle.copyWith(
               color: Get.isDarkMode
                   ? CustomColor.primaryDarkTextColor
-                  : CustomColor.primaryLightColor.withOpacity(alpha:0.4),
+                  : CustomColor.primaryLightColor.withOpacity(0.4),
             ),
           ),
           Expanded(

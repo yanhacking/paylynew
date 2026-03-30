@@ -39,7 +39,7 @@ class TransactionItemTileWidget extends StatelessWidget {
               maxLines: 2,
               textOverflow: TextOverflow.ellipsis,
               style: CustomStyle.lightHeading4TextStyle.copyWith(
-                  color: CustomColor.whiteColor.withOpacity(alpha:.4),
+                  color: CustomColor.whiteColor.withOpacity(.4),
                   fontSize: Dimensions.headingTextSize4,
                   fontWeight: FontWeight.w400)),
         ),
@@ -67,7 +67,7 @@ class TransactionItemTileWidget extends StatelessWidget {
                                     .copyWith(
                                         color: valueColor ??
                                             CustomColor.whiteColor
-                                                .withOpacity(alpha:.6),
+                                                .withOpacity(.6),
                                         fontSize: Dimensions.headingTextSize5,
                                         fontWeight: FontWeight.w600),
                                 maxLines: 3,
@@ -84,7 +84,7 @@ class TransactionItemTileWidget extends StatelessWidget {
                                   .copyWith(
                                       color: valueColor ??
                                           CustomColor.whiteColor
-                                              .withOpacity(alpha:.6),
+                                              .withOpacity(.6),
                                       fontSize: Dimensions.headingTextSize5,
                                       fontWeight: FontWeight.w600),
                               maxLines: 2,
@@ -98,7 +98,7 @@ class TransactionItemTileWidget extends StatelessWidget {
                       vertical: Dimensions.heightSize * .2,
                     ),
                     decoration: BoxDecoration(
-                        color: color != null ? color!.withOpacity(alpha:.15) : null,
+                        color: color != null ? color!.withOpacity(.15) : null,
                         borderRadius:
                             BorderRadius.circular(Dimensions.radius * .4)),
                     child: CustomTitleHeadingWidget(

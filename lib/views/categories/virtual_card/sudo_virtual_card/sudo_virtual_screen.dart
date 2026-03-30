@@ -122,7 +122,7 @@ class SudoVirtualCardScreen extends StatelessWidget {
                   data[index].cardPan.formatCardNumber(),
                   style: CustomStyle.lightHeading4TextStyle.copyWith(
                     fontWeight: FontWeight.w700,
-                    color: CustomColor.whiteColor.withOpacity(alpha:0.6),
+                    color: CustomColor.whiteColor.withOpacity(0.6),
                     fontSize: 22.sp,
                   ),
                 ),
@@ -145,7 +145,7 @@ class SudoVirtualCardScreen extends StatelessWidget {
                         CustomTitleHeadingWidget(
                           text: Strings.expiryDate,
                           style: CustomStyle.f20w600pri.copyWith(
-                              color: CustomColor.whiteColor.withOpacity(alpha:0.6),
+                              color: CustomColor.whiteColor.withOpacity(0.6),
                               fontWeight: FontWeight.w500,
                               fontSize: Dimensions.headingTextSize5),
                         ),
@@ -198,7 +198,7 @@ class SudoVirtualCardScreen extends StatelessWidget {
                   CustomTitleHeadingWidget(
                     text: Strings.cvc,
                     style: CustomStyle.f20w600pri.copyWith(
-                        color: CustomColor.whiteColor.withOpacity(alpha:0.6),
+                        color: CustomColor.whiteColor.withOpacity(0.6),
                         fontWeight: FontWeight.w500,
                         fontSize: Dimensions.headingTextSize5),
                   ),
@@ -272,7 +272,7 @@ class SudoVirtualCardScreen extends StatelessWidget {
                     fontFamily: "AgencyFB",
                     fontSize: Dimensions.headingTextSize3,
                     fontWeight: FontWeight.w700,
-                    color: CustomColor.whiteColor.withOpacity(alpha:0.6),
+                    color: CustomColor.whiteColor.withOpacity(0.6),
                   ),
                 ),
               ),
@@ -295,7 +295,7 @@ class SudoVirtualCardScreen extends StatelessWidget {
                         CustomTitleHeadingWidget(
                           text: Strings.expiryDate,
                           style: CustomStyle.f20w600pri.copyWith(
-                            color: CustomColor.whiteColor.withOpacity(alpha:0.6),
+                            color: CustomColor.whiteColor.withOpacity(0.6),
                             fontWeight: FontWeight.w500,
                             fontSize: Dimensions.headingTextSize5,
                           ),
@@ -344,7 +344,7 @@ class SudoVirtualCardScreen extends StatelessWidget {
               CustomTitleHeadingWidget(
                 text: Strings.cvc,
                 style: CustomStyle.f20w600pri.copyWith(
-                    color: CustomColor.whiteColor.withOpacity(alpha:0.6),
+                    color: CustomColor.whiteColor.withOpacity(0.6),
                     fontWeight: FontWeight.w500,
                     fontSize: Dimensions.headingTextSize5),
               ),
@@ -524,7 +524,7 @@ class SudoVirtualCardScreen extends StatelessWidget {
         dotHeight: 8,
         dotWidth: 8,
         activeDotColor: CustomColor.primaryLightColor,
-        dotColor: Colors.grey.withOpacity(alpha:0.5),
+        dotColor: Colors.grey.withOpacity(0.5),
       ),
     );
   }

@@ -90,7 +90,7 @@ class CardWidget extends StatelessWidget {
                         color: CustomColor.whiteColor,
                       ),
                       TitleHeading4Widget(
-                        color: CustomColor.whiteColor.withOpacity(alpha:0.6),
+                        color: CustomColor.whiteColor.withOpacity(0.6),
                         fontWeight: FontWeight.w500,
                         fontSize: Dimensions.headingTextSize5,
                         text: Strings.expiryDate,
@@ -108,7 +108,7 @@ class CardWidget extends StatelessWidget {
                         color: CustomColor.whiteColor,
                       ),
                       TitleHeading4Widget(
-                        color: CustomColor.whiteColor.withOpacity(alpha:0.6),
+                        color: CustomColor.whiteColor.withOpacity(0.6),
                         fontWeight: FontWeight.w500,
                         fontSize: Dimensions.headingTextSize5,
                         text: availableBalance ?? Strings.availabeBlance,
@@ -147,7 +147,7 @@ class CardWidget extends StatelessWidget {
               style: GoogleFonts.outfit(
                 fontSize: Dimensions.headingTextSize2 * 0.5,
                 fontWeight: FontWeight.w500,
-                color: CustomColor.whiteColor.withOpacity(alpha:0.6),
+                color: CustomColor.whiteColor.withOpacity(0.6),
               ),
             ),
             Container(
@@ -159,7 +159,7 @@ class CardWidget extends StatelessWidget {
               ),
               alignment: Alignment.center,
               decoration: BoxDecoration(
-                color: CustomColor.primaryLightTextColor.withOpacity(alpha:0.2),
+                color: CustomColor.primaryLightTextColor.withOpacity(0.2),
                 borderRadius: BorderRadius.circular(
                   Dimensions.radius * 0.3,
                 ),
@@ -168,7 +168,7 @@ class CardWidget extends StatelessWidget {
                 text: cvv,
                 fontSize: 10,
                 fontWeight: FontWeight.w600,
-                color: CustomColor.whiteColor.withOpacity(alpha:0.4),
+                color: CustomColor.whiteColor.withOpacity(0.4),
               ),
             ),
             verticalSpace(Dimensions.heightSize * 2),

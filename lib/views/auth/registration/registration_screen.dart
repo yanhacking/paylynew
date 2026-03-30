@@ -105,7 +105,7 @@ class RegistrationScreen extends StatelessWidget {
             BorderRadius.only(topLeft: borderRadius, topRight: borderRadius),
         boxShadow: [
           BoxShadow(
-            color: CustomColor.primaryLightColor.withOpacity(alpha:0.015),
+            color: CustomColor.primaryLightColor.withOpacity(0.015),
             spreadRadius: 7,
             blurRadius: 5,
             offset: const Offset(0, 0),
@@ -202,8 +202,8 @@ class RegistrationScreen extends StatelessWidget {
               style: GoogleFonts.inter(
                 fontSize: Dimensions.headingTextSize5,
                 color: Get.isDarkMode
-                    ? CustomColor.primaryDarkTextColor.withOpacity(alpha:0.8)
-                    : CustomColor.primaryTextColor.withOpacity(alpha:0.8),
+                    ? CustomColor.primaryDarkTextColor.withOpacity(0.8)
+                    : CustomColor.primaryTextColor.withOpacity(0.8),
                 fontWeight: FontWeight.w500,
               ),
               children: [

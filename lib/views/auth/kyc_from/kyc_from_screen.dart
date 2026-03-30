@@ -244,7 +244,7 @@ class KycFromScreen extends StatelessWidget {
                       side: WidgetStateBorderSide.resolveWith(
                         (states) => BorderSide(
                           width: 1.4,
-                          color: CustomColor.primaryLightColor.withOpacity(alpha:0.2),
+                          color: CustomColor.primaryLightColor.withOpacity(0.2),
                         ),
                       ),
                     ),

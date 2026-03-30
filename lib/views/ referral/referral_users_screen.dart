@@ -85,7 +85,7 @@ class ReferralUsersScreen extends StatelessWidget {
                                           radius: Dimensions.radius * 0.3,
                                           backgroundColor: CustomColor
                                               .blackColor
-                                              .withOpacity(alpha:0.3),
+                                              .withOpacity(0.3),
                                         ),
                                         horizontalSpace(
                                             Dimensions.widthSize * 0.4),
@@ -98,7 +98,7 @@ class ReferralUsersScreen extends StatelessWidget {
                                           radius: Dimensions.radius * 0.3,
                                           backgroundColor: CustomColor
                                               .blackColor
-                                              .withOpacity(alpha:0.3),
+                                              .withOpacity(0.3),
                                         ),
                                         horizontalSpace(
                                           Dimensions.widthSize * 0.4,

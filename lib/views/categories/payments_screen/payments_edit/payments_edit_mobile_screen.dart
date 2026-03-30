@@ -100,7 +100,7 @@ class PaymentsEditScreenMobile extends StatelessWidget {
         padding: EdgeInsets.only(
           left: Dimensions.paddingHorizontalSize * 0.25,
         ),
-        titleTextColor: CustomColor.primaryLightTextColor.withOpacity(alpha:.15),
+        titleTextColor: CustomColor.primaryLightTextColor.withOpacity(.15),
         titleStyle: CustomStyle.darkHeading3TextStyle.copyWith(
           fontWeight: FontWeight.w400,
           fontSize: Dimensions.headingTextSize3,
@@ -110,7 +110,7 @@ class PaymentsEditScreenMobile extends StatelessWidget {
         dropDownColor: CustomColor.whiteColor,
         borderEnable: false,
         dropDownFieldColor: CustomColor.whiteColor,
-        dropDownIconColor: CustomColor.primaryLightTextColor.withOpacity(alpha:0.30),
+        dropDownIconColor: CustomColor.primaryLightTextColor.withOpacity(0.30),
       ),
     );
   }
@@ -193,7 +193,7 @@ class PaymentsEditScreenMobile extends StatelessWidget {
       padding: EdgeInsets.only(
         left: Dimensions.paddingHorizontalSize * 0.25,
       ),
-      titleTextColor: CustomColor.primaryLightTextColor.withOpacity(alpha:.30),
+      titleTextColor: CustomColor.primaryLightTextColor.withOpacity(.30),
       titleStyle: CustomStyle.darkHeading3TextStyle.copyWith(
         fontWeight: FontWeight.w400,
         fontSize: Dimensions.headingTextSize3,
@@ -203,7 +203,7 @@ class PaymentsEditScreenMobile extends StatelessWidget {
       dropDownColor: CustomColor.whiteColor,
       borderEnable: false,
       dropDownFieldColor: CustomColor.whiteColor,
-      dropDownIconColor: CustomColor.primaryLightTextColor.withOpacity(alpha:0.30),
+      dropDownIconColor: CustomColor.primaryLightTextColor.withOpacity(0.30),
     );
   }
 
@@ -229,8 +229,8 @@ class PaymentsEditScreenMobile extends StatelessWidget {
                 ),
                 side: BorderSide(
                   color: Get.isDarkMode
-                      ? CustomColor.primaryDarkTextColor.withOpacity(alpha:0.50)
-                      : CustomColor.primaryLightTextColor.withOpacity(alpha:0.50),
+                      ? CustomColor.primaryDarkTextColor.withOpacity(0.50)
+                      : CustomColor.primaryLightTextColor.withOpacity(0.50),
                 ),
               ),
             ),
@@ -239,7 +239,7 @@ class PaymentsEditScreenMobile extends StatelessWidget {
           TitleHeading5Widget(
             text: Strings.setLimit,
             fontWeight: FontWeight.w500,
-            color: CustomColor.primaryLightTextColor.withOpacity(alpha:.6),
+            color: CustomColor.primaryLightTextColor.withOpacity(.6),
           ),
         ],
       ),

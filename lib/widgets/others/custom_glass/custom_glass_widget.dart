@@ -29,8 +29,8 @@ extension GlassWidget<T extends Widget> on T {
                     begin: Alignment.topLeft,
                     end: Alignment.bottomRight,
                     colors: [
-                      tintColor.withOpacity(alpha:0.1),
-                      tintColor.withOpacity(alpha:0.08),
+                      tintColor.withOpacity(0.1),
+                      tintColor.withOpacity(0.08),
                     ],
                   )
                 : null,

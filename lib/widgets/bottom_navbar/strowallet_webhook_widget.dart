@@ -30,7 +30,7 @@ class TransactionWebWidget extends StatelessWidget {
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(Dimensions.radius),
           color: Get.isDarkMode
-              ? CustomColor.whiteColor.withOpacity(alpha:0.06)
+              ? CustomColor.whiteColor.withOpacity(0.06)
               : CustomColor.whiteColor,
         ),
         padding: EdgeInsets.all(Dimensions.paddingSize * 0.5),
@@ -61,10 +61,10 @@ class TransactionWebWidget extends StatelessWidget {
                       ),
                       decoration: BoxDecoration(
                         color: status == 'Pending'
-                            ? CustomColor.yellowColor.withOpacity(alpha:0.8)
+                            ? CustomColor.yellowColor.withOpacity(0.8)
                             : status == 'success'
-                                ? CustomColor.greenColor.withOpacity(alpha:0.8)
-                                : CustomColor.redColor.withOpacity(alpha:0.8),
+                                ? CustomColor.greenColor.withOpacity(0.8)
+                                : CustomColor.redColor.withOpacity(0.8),
                         borderRadius: BorderRadius.circular(Dimensions.radius),
                       ),
                       child: TitleHeading5Widget(
@@ -83,10 +83,10 @@ class TransactionWebWidget extends StatelessWidget {
                       ),
                       decoration: BoxDecoration(
                         color: status == '2' || status == '0'
-                            ? CustomColor.yellowColor.withOpacity(alpha:0.8)
+                            ? CustomColor.yellowColor.withOpacity(0.8)
                             : status == '1'
-                                ? CustomColor.greenColor.withOpacity(alpha:0.8)
-                                : CustomColor.redColor.withOpacity(alpha:0.8),
+                                ? CustomColor.greenColor.withOpacity(0.8)
+                                : CustomColor.redColor.withOpacity(0.8),
                         borderRadius: BorderRadius.circular(Dimensions.radius),
                       ),
                       child: TitleHeading5Widget(

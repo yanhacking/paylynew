@@ -10,7 +10,7 @@ class CustomDivider extends StatelessWidget {
           EdgeInsets.symmetric(vertical: Dimensions.marginSizeVertical * .25),
       height: Dimensions.heightSize * .17,
       decoration: BoxDecoration(
-        color: CustomColor.primaryLightTextColor.withOpacity(alpha:
+        color: CustomColor.primaryLightTextColor.withOpacity(
           .1,
         ),
         borderRadius: BorderRadius.horizontal(

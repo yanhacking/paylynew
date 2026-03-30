@@ -124,16 +124,16 @@ class RequestMoneyPreviewScreen extends StatelessWidget {
             TitleHeading4Widget(
               text: title,
               color: Get.isDarkMode
-                  ? CustomColor.primaryDarkTextColor.withOpacity(alpha:0.6)
-                  : CustomColor.primaryLightColor.withOpacity(alpha:
+                  ? CustomColor.primaryDarkTextColor.withOpacity(0.6)
+                  : CustomColor.primaryLightColor.withOpacity(
                       0.4,
                     ),
             ),
             TitleHeading3Widget(
               text: subTitle,
               color: Get.isDarkMode
-                  ? CustomColor.primaryDarkTextColor.withOpacity(alpha:0.6)
-                  : CustomColor.primaryLightColor.withOpacity(alpha:
+                  ? CustomColor.primaryDarkTextColor.withOpacity(0.6)
+                  : CustomColor.primaryLightColor.withOpacity(
                       0.6,
                     ),
               fontWeight: FontWeight.w600,

@@ -100,7 +100,7 @@ class _PrimaryInputWidgetState extends State<InputWithText> {
                 textAlign: TextAlign.left,
                 style: CustomStyle.darkHeading3TextStyle.copyWith(
                   color: Get.isDarkMode
-                      ? CustomColor.primaryDarkTextColor.withOpacity(alpha:0.2)
+                      ? CustomColor.primaryDarkTextColor.withOpacity(0.2)
                       : CustomColor.primaryTextColor,
                 ),
                 inputFormatters: <TextInputFormatter>[
@@ -115,14 +115,14 @@ class _PrimaryInputWidgetState extends State<InputWithText> {
                     fontSize: Dimensions.headingTextSize3,
                     fontWeight: FontWeight.w500,
                     color: Get.isDarkMode
-                        ? CustomColor.primaryDarkTextColor.withOpacity(alpha:0.2)
-                        : CustomColor.primaryTextColor.withOpacity(alpha:0.2),
+                        ? CustomColor.primaryDarkTextColor.withOpacity(0.2)
+                        : CustomColor.primaryTextColor.withOpacity(0.2),
                   ),
                   enabledBorder: OutlineInputBorder(
                     borderRadius:
                         BorderRadius.circular(Dimensions.radius * 0.5),
                     borderSide: BorderSide(
-                      color: CustomColor.primaryLightColor.withOpacity(alpha:0.2),
+                      color: CustomColor.primaryLightColor.withOpacity(0.2),
                     ),
                   ),
                   focusedBorder: OutlineInputBorder(

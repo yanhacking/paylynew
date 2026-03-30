@@ -25,16 +25,16 @@ class LimitWidget extends StatelessWidget {
                 textAlign: TextAlign.left,
                 fontWeight: FontWeight.w500,
                 color: Get.isDarkMode
-                    ? CustomColor.primaryDarkTextColor.withOpacity(alpha:0.8)
-                    : CustomColor.primaryLightColor.withOpacity(alpha:0.6),
+                    ? CustomColor.primaryDarkTextColor.withOpacity(0.8)
+                    : CustomColor.primaryLightColor.withOpacity(0.6),
               ),
               TitleHeading5Widget(
                 text: ": $fee",
                 textAlign: TextAlign.left,
                 fontWeight: FontWeight.w500,
                 color: Get.isDarkMode
-                    ? CustomColor.primaryDarkTextColor.withOpacity(alpha:0.8)
-                    : CustomColor.primaryLightColor.withOpacity(alpha:0.6),
+                    ? CustomColor.primaryDarkTextColor.withOpacity(0.8)
+                    : CustomColor.primaryLightColor.withOpacity(0.6),
               ),
             ],
           ),
@@ -49,16 +49,16 @@ class LimitWidget extends StatelessWidget {
                       textAlign: TextAlign.left,
                       fontWeight: FontWeight.w500,
                       color: Get.isDarkMode
-                          ? CustomColor.primaryDarkTextColor.withOpacity(alpha:0.8)
-                          : CustomColor.primaryLightColor.withOpacity(alpha:0.6),
+                          ? CustomColor.primaryDarkTextColor.withOpacity(0.8)
+                          : CustomColor.primaryLightColor.withOpacity(0.6),
                     ),
                     TitleHeading5Widget(
                       text: ": $limit",
                       textAlign: TextAlign.left,
                       fontWeight: FontWeight.w500,
                       color: Get.isDarkMode
-                          ? CustomColor.primaryDarkTextColor.withOpacity(alpha:0.8)
-                          : CustomColor.primaryLightColor.withOpacity(alpha:0.6),
+                          ? CustomColor.primaryDarkTextColor.withOpacity(0.8)
+                          : CustomColor.primaryLightColor.withOpacity(0.6),
                     ),
                   ],
                 ),

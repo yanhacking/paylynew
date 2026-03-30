@@ -118,13 +118,13 @@ class _PrimaryInputWidgetState extends State<TopUpPhoneNumberInputWidget> {
               fontSize: Dimensions.headingTextSize3,
               fontWeight: FontWeight.w500,
               color: Get.isDarkMode
-                  ? CustomColor.primaryDarkTextColor.withOpacity(alpha:0.2)
-                  : CustomColor.primaryTextColor.withOpacity(alpha:0.2),
+                  ? CustomColor.primaryDarkTextColor.withOpacity(0.2)
+                  : CustomColor.primaryTextColor.withOpacity(0.2),
             ),
             enabledBorder: OutlineInputBorder(
                 borderRadius: BorderRadius.circular(Dimensions.radius * 0.7),
                 borderSide: BorderSide(
-                  color: CustomColor.primaryLightColor.withOpacity(alpha:0.2),
+                  color: CustomColor.primaryLightColor.withOpacity(0.2),
                 )),
             focusedBorder: OutlineInputBorder(
               borderRadius: BorderRadius.circular(Dimensions.radius * 0.7),
@@ -204,10 +204,10 @@ class _PrimaryInputWidgetState extends State<TopUpPhoneNumberInputWidget> {
                         .basicDataModel.data.countries[index].mobileCode;
 
                     return InkWell(
-                      highlightColor: Colors.yellow.withOpacity(alpha:0.9),
-                      splashColor: Colors.red.withOpacity(alpha:0.8),
-                      focusColor: Colors.green.withOpacity(alpha:0.0),
-                      hoverColor: Colors.blue.withOpacity(alpha:0.8),
+                      highlightColor: Colors.yellow.withOpacity(0.9),
+                      splashColor: Colors.red.withOpacity(0.8),
+                      focusColor: Colors.green.withOpacity(0.0),
+                      hoverColor: Colors.blue.withOpacity(0.8),
                       onTap: () {
                         basicController.isCountry.value == false;
                         basicController.remainingController

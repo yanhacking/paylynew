@@ -77,7 +77,7 @@ class _PrimaryInputWidgetState extends State<PrimaryInputWidget> {
                 fontWeight:
                     widget.isTrxHash ? FontWeight.w400 : FontWeight.w600,
                 color: widget.isTrxHash
-                    ? CustomColor.whiteColor.withOpacity(alpha:0.5)
+                    ? CustomColor.whiteColor.withOpacity(0.5)
                     : null,
               ),
               horizontalSpace(Dimensions.widthSize * 0.2),
@@ -85,7 +85,7 @@ class _PrimaryInputWidgetState extends State<PrimaryInputWidget> {
                 text: widget.optionalLabel ?? "",
                 fontWeight: FontWeight.w600,
                 fontSize: Dimensions.headingTextSize4,
-                color: CustomColor.primaryLightColor.withOpacity(alpha:.8),
+                color: CustomColor.primaryLightColor.withOpacity(.8),
               ),
             ],
           ),
@@ -131,10 +131,10 @@ class _PrimaryInputWidgetState extends State<PrimaryInputWidget> {
                 fontSize: Dimensions.headingTextSize3,
                 fontWeight: FontWeight.w500,
                 color: widget.isTrxHash
-                    ? CustomColor.primaryDarkTextColor.withOpacity(alpha:0.2)
+                    ? CustomColor.primaryDarkTextColor.withOpacity(0.2)
                     : Get.isDarkMode
-                        ? CustomColor.primaryDarkTextColor.withOpacity(alpha:0.2)
-                        : CustomColor.primaryLightTextColor.withOpacity(alpha:0.2),
+                        ? CustomColor.primaryDarkTextColor.withOpacity(0.2)
+                        : CustomColor.primaryLightTextColor.withOpacity(0.2),
               ),
               border: OutlineInputBorder(
                 borderRadius: BorderRadius.circular(
@@ -151,7 +151,7 @@ class _PrimaryInputWidgetState extends State<PrimaryInputWidget> {
                 borderSide: BorderSide(
                   color: widget.isTrxHash
                       ? CustomColor.whiteColor
-                      : CustomColor.primaryLightColor.withOpacity(alpha:0.2),
+                      : CustomColor.primaryLightColor.withOpacity(0.2),
                 ),
               ),
               focusedBorder: OutlineInputBorder(

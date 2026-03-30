@@ -122,7 +122,7 @@ class CardDetailsScreen extends StatelessWidget {
         ),
         Divider(
           thickness: 1,
-          color: CustomColor.primaryLightColor.withOpacity(alpha:0.2),
+          color: CustomColor.primaryLightColor.withOpacity(0.2),
         ),
         Padding(
           padding: EdgeInsets.only(
@@ -174,7 +174,7 @@ class CardDetailsScreen extends StatelessWidget {
                   CustomTitleHeadingWidget(
                     text: Strings.status,
                     style: CustomStyle.darkHeading4TextStyle.copyWith(
-                      color: CustomColor.primaryLightColor.withOpacity(alpha:0.4),
+                      color: CustomColor.primaryLightColor.withOpacity(0.4),
                     ),
                   ),
                   SizedBox(

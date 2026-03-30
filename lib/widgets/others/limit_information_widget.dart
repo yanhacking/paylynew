@@ -61,7 +61,7 @@ class LimitInformationWidget extends StatelessWidget {
                             text: dailyLimit,
                             fontSize: Dimensions.headingTextSize4 - 1,
                             color:
-                                CustomColor.primaryLightColor.withOpacity(alpha:0.5),
+                                CustomColor.primaryLightColor.withOpacity(0.5),
                           ),
                         ],
                       ),
@@ -94,7 +94,7 @@ class LimitInformationWidget extends StatelessWidget {
                                     fontSize: Dimensions.headingTextSize4 - 1,
                                     text: remainingDailyLimit,
                                     color: CustomColor.primaryLightColor
-                                        .withOpacity(alpha:0.5),
+                                        .withOpacity(0.5),
                                   ),
                           ),
                         ],
@@ -121,7 +121,7 @@ class LimitInformationWidget extends StatelessWidget {
                       TitleHeading3Widget(
                         fontSize: Dimensions.headingTextSize4 - 1,
                         text: monthlyLimit,
-                        color: CustomColor.primaryLightColor.withOpacity(alpha:0.5),
+                        color: CustomColor.primaryLightColor.withOpacity(0.5),
                       ),
                     ],
                   ),
@@ -154,7 +154,7 @@ class LimitInformationWidget extends StatelessWidget {
                                 fontSize: Dimensions.headingTextSize4 - 1,
                                 text: remainingMonthLimit,
                                 color: CustomColor.primaryLightColor
-                                    .withOpacity(alpha:0.5),
+                                    .withOpacity(0.5),
                               ),
                       ),
                     ],
@@ -175,7 +175,7 @@ class LimitInformationWidget extends StatelessWidget {
               TitleHeading3Widget(
                 fontSize: Dimensions.headingTextSize4 - 1,
                 text: transactionLimit,
-                color: CustomColor.primaryLightColor.withOpacity(alpha:0.5),
+                color: CustomColor.primaryLightColor.withOpacity(0.5),
               ),
             ],
           ),

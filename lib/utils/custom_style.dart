@@ -22,7 +22,7 @@ class CustomStyle {
     fontWeight: FontWeight.w700,
   );
   static var darkHeading4TextStyle = GoogleFonts.inter(
-    color: CustomColor.whiteColor.withOpacity(alpha:
+    color: CustomColor.whiteColor.withOpacity(
       0.6,
     ),
     fontSize: Dimensions.headingTextSize4,
@@ -79,7 +79,7 @@ class CustomStyle {
 
   static var onboardSubTitleStyle = GoogleFonts.inter(
       textStyle: TextStyle(
-    color: CustomColor.primaryTextColor.withOpacity(alpha:0.6),
+    color: CustomColor.primaryTextColor.withOpacity(0.6),
     fontSize: Dimensions.headingTextSize4 * 0.9,
     fontWeight: FontWeight.w400,
   ));

@@ -21,7 +21,7 @@ class NoDataWidget extends StatelessWidget {
         padding: EdgeInsets.symmetric(vertical: Dimensions.paddingSize),
         margin: EdgeInsets.symmetric(horizontal: Dimensions.paddingSize),
         // decoration: BoxDecoration(
-        //   color: CustomColor.primaryLightColor.withOpacity(alpha:0.29),
+        //   color: CustomColor.primaryLightColor.withOpacity(0.29),
         //   borderRadius: BorderRadius.circular(Dimensions.radius),
         // ),
         child: Center(
@@ -30,13 +30,13 @@ class NoDataWidget extends StatelessWidget {
             children: [
               Icon(
                 Icons.hourglass_empty,
-                color: CustomColor.blackColor.withOpacity(alpha:0.4),
+                color: CustomColor.blackColor.withOpacity(0.4),
                 size: Dimensions.iconSizeLarge * 1.5,
               ),
               verticalSpace(Dimensions.paddingSize * 0.3),
               TitleHeading1Widget(
                 text: title ?? Strings.emptyStatus,
-                color: CustomColor.blackColor.withOpacity(alpha:0.4),
+                color: CustomColor.blackColor.withOpacity(0.4),
                 textAlign: TextAlign.center,
                 fontSize: Dimensions.headingTextSize3,
               )

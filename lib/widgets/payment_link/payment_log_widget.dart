@@ -34,7 +34,7 @@ class PaymentLogWidget extends StatelessWidget {
       child: Container(
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(Dimensions.radius * 0.5),
-          color: CustomColor.primaryLightColor.withOpacity(alpha:0.05),
+          color: CustomColor.primaryLightColor.withOpacity(0.05),
         ),
         padding: EdgeInsets.only(right: Dimensions.paddingHorizontalSize * 0.2),
         child: Row(
@@ -55,7 +55,7 @@ class PaymentLogWidget extends StatelessWidget {
                   horizontal: Dimensions.paddingHorizontalSize * 0.2,
                 ),
                 decoration: BoxDecoration(
-                  color: CustomColor.primaryLightColor.withOpacity(alpha:0.05),
+                  color: CustomColor.primaryLightColor.withOpacity(0.05),
                   borderRadius: BorderRadius.circular(Dimensions.radius),
                 ),
                 alignment: Alignment.center,
@@ -123,10 +123,10 @@ class PaymentLogWidget extends StatelessWidget {
               child: PopupMenuButton(
                 elevation: Dimensions.widthSize * 2,
                 color: Get.isDarkMode
-                    ? CustomColor.blackColor.withOpacity(alpha:0.5)
+                    ? CustomColor.blackColor.withOpacity(0.5)
                     : CustomColor.whiteColor,
                 surfaceTintColor: Get.isDarkMode
-                    ? CustomColor.blackColor.withOpacity(alpha:0.5)
+                    ? CustomColor.blackColor.withOpacity(0.5)
                     : CustomColor.whiteColor,
                 icon: Icon(
                   Icons.more_vert_outlined,
@@ -135,7 +135,7 @@ class PaymentLogWidget extends StatelessWidget {
                       : Dimensions.heightSize * 1.5,
                   color: Get.isDarkMode
                       ? CustomColor.whiteColor
-                      : CustomColor.primaryLightTextColor.withOpacity(alpha:.20),
+                      : CustomColor.primaryLightTextColor.withOpacity(.20),
                 ),
                 itemBuilder: (BuildContext context) => [
                   PopupMenuItem(
@@ -182,7 +182,7 @@ class PaymentLogWidget extends StatelessWidget {
                                   color: Get.isDarkMode
                                       ? CustomColor.whiteColor
                                       : CustomColor.primaryLightTextColor
-                                          .withOpacity(alpha:.5),
+                                          .withOpacity(.5),
                                 ),
                                 horizontalSpace(Dimensions.widthSize * .5),
                                 TitleHeading5Widget(
@@ -213,7 +213,7 @@ class PaymentLogWidget extends StatelessWidget {
                                   color: Get.isDarkMode
                                       ? CustomColor.whiteColor
                                       : CustomColor.primaryLightTextColor
-                                          .withOpacity(alpha:.5),
+                                          .withOpacity(.5),
                                 ),
                                 horizontalSpace(Dimensions.widthSize * .5),
                                 TitleHeading5Widget(

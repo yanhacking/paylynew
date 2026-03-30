@@ -80,7 +80,7 @@ class BillPayScreen extends StatelessWidget {
             style: CustomStyle.darkHeading4TextStyle.copyWith(
               fontWeight: FontWeight.w600,
               color: Get.isDarkMode
-                  ? CustomColor.primaryDarkTextColor.withOpacity(alpha:0.7)
+                  ? CustomColor.primaryDarkTextColor.withOpacity(0.7)
                   : CustomColor.primaryTextColor,
             ),
           ),
@@ -281,7 +281,7 @@ class BillPayScreen extends StatelessWidget {
           style: CustomStyle.darkHeading4TextStyle.copyWith(
             fontWeight: FontWeight.w600,
             color: Get.isDarkMode
-                ? CustomColor.primaryDarkTextColor.withOpacity(alpha:0.7)
+                ? CustomColor.primaryDarkTextColor.withOpacity(0.7)
                 : CustomColor.primaryTextColor,
           ),
         ),

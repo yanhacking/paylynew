@@ -109,7 +109,7 @@ class ReferralUsersSection extends StatelessWidget {
                               CircleAvatar(
                                 radius: Dimensions.radius * 0.3, 
                                 backgroundColor: 
-                                    CustomColor.blackColor.withOpacity(alpha:0.3),
+                                    CustomColor.blackColor.withOpacity(0.3),
                               ),
                               horizontalSpace(Dimensions.widthSize * 0.4), 
                               TitleHeading5Widget(text: refer.email), 
@@ -122,7 +122,7 @@ class ReferralUsersSection extends StatelessWidget {
                               CircleAvatar(
                                 radius: Dimensions.radius * 0.3,
                                 backgroundColor:
-                                    CustomColor.blackColor.withOpacity(alpha:0.3),
+                                    CustomColor.blackColor.withOpacity(0.3),
                               ),
                               horizontalSpace(Dimensions.widthSize * 0.4),
                               TitleHeading5Widget(text: refer.fullMobile),

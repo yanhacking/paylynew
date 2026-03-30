@@ -135,7 +135,7 @@ class StrowalletCardDetailsScreen extends StatelessWidget {
                   CustomTitleHeadingWidget(
                     text: Strings.freezeCard,
                     style: CustomStyle.darkHeading4TextStyle.copyWith(
-                      color: CustomColor.primaryLightTextColor.withOpacity(alpha:0.4),
+                      color: CustomColor.primaryLightTextColor.withOpacity(0.4),
                     ),
                   ),
                   Obx(
@@ -145,10 +145,10 @@ class StrowalletCardDetailsScreen extends StatelessWidget {
                           )
                         : Switch(
                             activeColor: CustomColor.primaryLightTextColor
-                                .withOpacity(alpha:0.6),
+                                .withOpacity(0.6),
                             inactiveThumbColor: CustomColor
                                 .primaryLightTextColor
-                                .withOpacity(alpha:0.6),
+                                .withOpacity(0.6),
                             value: controller.isSelected.value,
                             onChanged: ((value) {
                               controller.isSelected.value =

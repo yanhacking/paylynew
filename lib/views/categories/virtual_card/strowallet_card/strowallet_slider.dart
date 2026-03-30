@@ -95,7 +95,7 @@ class StrowalletSlider extends StatelessWidget {
                               right: Dimensions.marginSizeHorizontal * 0.2,
                             ),
                             decoration: BoxDecoration(
-                              color: CustomColor.whiteColor.withOpacity(alpha:0.3),
+                              color: CustomColor.whiteColor.withOpacity(0.3),
                               shape: BoxShape.circle,
                             ),
                           );

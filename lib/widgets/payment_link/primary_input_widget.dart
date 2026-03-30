@@ -113,7 +113,7 @@ class _PrimaryInputFieldState extends State<PrimaryInputField> {
       hintStyle: CustomStyle.lightHeading3TextStyle.copyWith(
         fontSize: Dimensions.headingTextSize3,
         fontWeight: FontWeight.w600,
-        color: CustomColor.primaryLightTextColor.withOpacity(alpha:0.20),
+        color: CustomColor.primaryLightTextColor.withOpacity(0.20),
       ),
       border: _setBorderStyle(BSS.b),
       enabledBorder: _setBorderStyle(BSS.enabledBorder),
@@ -205,7 +205,7 @@ class _PrimaryInputFieldState extends State<PrimaryInputField> {
               style: CustomStyle.lightHeading4TextStyle.copyWith(
                 fontWeight: FontWeight.w600,
                 fontSize: Dimensions.headingTextSize4,
-                color: CustomColor.primaryLightColor.withOpacity(alpha:.8),
+                color: CustomColor.primaryLightColor.withOpacity(.8),
               ),
             ),
           ],
@@ -220,17 +220,17 @@ class _PrimaryInputFieldState extends State<PrimaryInputField> {
       case BSS.enabledBorder:
         return BorderSide(
           width: widget.borderWidth,
-          color: CustomColor.primaryLightTextColor.withOpacity(alpha:0.2),
+          color: CustomColor.primaryLightTextColor.withOpacity(0.2),
         );
       case BSS.b:
         return BorderSide(
           width: widget.borderWidth,
-          color: CustomColor.primaryLightTextColor.withOpacity(alpha:0.2),
+          color: CustomColor.primaryLightTextColor.withOpacity(0.2),
         );
       case BSS.disableBorder:
         return BorderSide(
           width: widget.borderWidth,
-          color: CustomColor.primaryLightTextColor.withOpacity(alpha:0.2),
+          color: CustomColor.primaryLightTextColor.withOpacity(0.2),
         );
       case BSS.focusedBorder:
         return BorderSide(
@@ -250,7 +250,7 @@ class _PrimaryInputFieldState extends State<PrimaryInputField> {
       default:
         return BorderSide(
           width: widget.borderWidth,
-          color: CustomColor.primaryLightTextColor.withOpacity(alpha:0.2),
+          color: CustomColor.primaryLightTextColor.withOpacity(0.2),
         );
     }
   }
@@ -329,9 +329,9 @@ class _PrimaryInputFieldState extends State<PrimaryInputField> {
                           ? CustomColor.primaryLightColor
                           : Get.isDarkMode
                               ? CustomColor.primaryDarkTextColor
-                                  .withOpacity(alpha:0.50)
+                                  .withOpacity(0.50)
                               : CustomColor.primaryLightTextColor
-                                  .withOpacity(alpha:0.50),
+                                  .withOpacity(0.50),
                     ),
                     Visibility(
                       visible: widget.phoneCode != '',
@@ -345,7 +345,7 @@ class _PrimaryInputFieldState extends State<PrimaryInputField> {
                               color: focusNode!.hasFocus
                                   ? CustomColor.primaryLightColor
                                   : CustomColor.primaryLightTextColor
-                                      .withOpacity(alpha:0.2),
+                                      .withOpacity(0.2),
                             ),
                           ).marginOnly(
                             left: Dimensions.marginSizeHorizontal * 0.3,
@@ -359,7 +359,7 @@ class _PrimaryInputFieldState extends State<PrimaryInputField> {
                             color: focusNode!.hasFocus
                                 ? CustomColor.primaryLightColor
                                 : CustomColor.primaryLightTextColor
-                                    .withOpacity(alpha:0.2),
+                                    .withOpacity(0.2),
                           ),
                         ],
                       ),
@@ -378,8 +378,8 @@ class _PrimaryInputFieldState extends State<PrimaryInputField> {
               color: focusNode!.hasFocus
                   ? CustomColor.primaryLightColor
                   : Get.isDarkMode
-                      ? CustomColor.primaryDarkTextColor.withOpacity(alpha:0.50)
-                      : CustomColor.primaryLightTextColor.withOpacity(alpha:0.50),
+                      ? CustomColor.primaryDarkTextColor.withOpacity(0.50)
+                      : CustomColor.primaryLightTextColor.withOpacity(0.50),
               size: Dimensions.iconSizeDefault,
             ),
             onPressed: () {

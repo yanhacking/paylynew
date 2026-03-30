@@ -42,7 +42,7 @@ class SplashScreen extends StatelessWidget {
                           ),
                           child: LinearProgressIndicator(
                             color:
-                                CustomColor.primaryLightColor.withOpacity(alpha:0.8),
+                                CustomColor.primaryLightColor.withOpacity(0.8),
                             backgroundColor: Colors.transparent,
                           ),
                         ),

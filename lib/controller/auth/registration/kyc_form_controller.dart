@@ -192,11 +192,11 @@ class BasicDataController extends GetxController {
                         horizontal: Dimensions.paddingHorizontalSize * 0.25,
                       ),
                       titleTextColor:
-                          CustomColor.primaryLightTextColor.withOpacity(alpha:.2),
+                          CustomColor.primaryLightTextColor.withOpacity(.2),
                       borderEnable: true,
                       dropDownFieldColor: Colors.transparent,
                       dropDownIconColor:
-                          CustomColor.primaryLightTextColor.withOpacity(alpha:.2))),
+                          CustomColor.primaryLightTextColor.withOpacity(.2))),
                   verticalSpace(Dimensions.marginBetweenInputBox * .8),
                 ],
               ),

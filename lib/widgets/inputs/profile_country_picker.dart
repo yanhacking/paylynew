@@ -23,7 +23,7 @@ class ProfileCountryCodePickerWidget extends StatelessWidget {
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(Dimensions.radius * 0.5),
             border: Border.all(
-              color: CustomColor.primaryLightColor.withOpacity(alpha:0.2),
+              color: CustomColor.primaryLightColor.withOpacity(0.2),
             ),
           ),
           width: double.infinity,

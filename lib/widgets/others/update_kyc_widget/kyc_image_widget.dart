@@ -68,7 +68,7 @@ class _DropFileState extends State<KycImageWidget> {
       child: DottedBorder(
         dashPattern: const [4, 2],
         strokeWidth: 2,
-        color: CustomColor.primaryLightColor.withOpacity(alpha:0.2),
+        color: CustomColor.primaryLightColor.withOpacity(0.2),
         child: Container(
           height: Dimensions.heightSize * 7,
           alignment: Alignment.center,
@@ -112,7 +112,7 @@ class _DropFileState extends State<KycImageWidget> {
         barrierLabel:
             MaterialLocalizations.of(context).modalBarrierDismissLabel,
         barrierDismissible: true,
-        barrierColor: Colors.black.withOpacity(alpha:0.6),
+        barrierColor: Colors.black.withOpacity(0.6),
         transitionDuration: const Duration(milliseconds: 700),
         context: context,
         pageBuilder: (_, __, ___) {

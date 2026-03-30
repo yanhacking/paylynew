@@ -21,8 +21,8 @@ class CategoriesWidget extends StatelessWidget {
           CircleAvatar(
             radius: 27,
             backgroundColor: Get.isDarkMode
-                ? CustomColor.whiteColor.withOpacity(alpha:0.06)
-                : CustomColor.primaryLightColor.withOpacity(alpha:0.06),
+                ? CustomColor.whiteColor.withOpacity(0.06)
+                : CustomColor.primaryLightColor.withOpacity(0.06),
             child: CustomImageWidget(
               path: icon,
               height: 24,

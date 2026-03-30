@@ -29,7 +29,7 @@ class LimitWithExchangeRateWidget extends StatelessWidget {
                 fontWeight: FontWeight.w500,
                 color: Get.isDarkMode
                     ? CustomColor.primaryDarkTextColor
-                    : CustomColor.primaryLightColor.withOpacity(alpha:0.6),
+                    : CustomColor.primaryLightColor.withOpacity(0.6),
               ),
               TitleHeading5Widget(
                 text: ": $exchangeRate ",
@@ -38,7 +38,7 @@ class LimitWithExchangeRateWidget extends StatelessWidget {
                 fontWeight: FontWeight.w500,
                 color: Get.isDarkMode
                     ? CustomColor.primaryDarkTextColor
-                    : CustomColor.primaryLightColor.withOpacity(alpha:0.6),
+                    : CustomColor.primaryLightColor.withOpacity(0.6),
               ),
             ],
           ),
@@ -53,7 +53,7 @@ class LimitWithExchangeRateWidget extends StatelessWidget {
                 fontWeight: FontWeight.w500,
                 color: Get.isDarkMode
                     ? CustomColor.primaryDarkTextColor
-                    : CustomColor.primaryLightColor.withOpacity(alpha:0.6),
+                    : CustomColor.primaryLightColor.withOpacity(0.6),
               ),
               TitleHeading5Widget(
                 text: ": $fee ",
@@ -62,7 +62,7 @@ class LimitWithExchangeRateWidget extends StatelessWidget {
                 fontWeight: FontWeight.w500,
                 color: Get.isDarkMode
                     ? CustomColor.primaryDarkTextColor
-                    : CustomColor.primaryLightColor.withOpacity(alpha:0.6),
+                    : CustomColor.primaryLightColor.withOpacity(0.6),
               ),
             ],
           ),
@@ -77,7 +77,7 @@ class LimitWithExchangeRateWidget extends StatelessWidget {
                 fontWeight: FontWeight.w500,
                 color: Get.isDarkMode
                     ? CustomColor.primaryDarkTextColor
-                    : CustomColor.primaryLightColor.withOpacity(alpha:0.6),
+                    : CustomColor.primaryLightColor.withOpacity(0.6),
               ),
               TitleHeading5Widget(
                 text: ": $limit ",
@@ -86,7 +86,7 @@ class LimitWithExchangeRateWidget extends StatelessWidget {
                 fontWeight: FontWeight.w500,
                 color: Get.isDarkMode
                     ? CustomColor.primaryDarkTextColor
-                    : CustomColor.primaryLightColor.withOpacity(alpha:0.6),
+                    : CustomColor.primaryLightColor.withOpacity(0.6),
               ),
             ],
           ),

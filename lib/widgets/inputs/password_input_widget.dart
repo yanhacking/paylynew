@@ -90,8 +90,8 @@ class _PrimaryInputWidgetState extends State<PasswordInputWidget> {
                 fontSize: Dimensions.headingTextSize3,
                 fontWeight: FontWeight.w500,
                 color: Get.isDarkMode
-                    ? CustomColor.primaryDarkTextColor.withOpacity(alpha:0.2)
-                    : CustomColor.primaryLightTextColor.withOpacity(alpha:0.2),
+                    ? CustomColor.primaryDarkTextColor.withOpacity(0.2)
+                    : CustomColor.primaryLightTextColor.withOpacity(0.2),
               ),
               border: OutlineInputBorder(
                 borderRadius: BorderRadius.circular(Dimensions.radius * 0.7),
@@ -101,7 +101,7 @@ class _PrimaryInputWidgetState extends State<PasswordInputWidget> {
               enabledBorder: OutlineInputBorder(
                 borderRadius: BorderRadius.circular(Dimensions.radius * 0.5),
                 borderSide: BorderSide(
-                  color: CustomColor.primaryLightColor.withOpacity(alpha:0.2),
+                  color: CustomColor.primaryLightColor.withOpacity(0.2),
                 ),
               ),
               focusedBorder: OutlineInputBorder(
@@ -124,8 +124,8 @@ class _PrimaryInputWidgetState extends State<PasswordInputWidget> {
                   color: focusNode!.hasFocus
                       ? CustomColor.primaryDarkColor
                       : Get.isDarkMode
-                          ? CustomColor.primaryDarkTextColor.withOpacity(alpha:0.2)
-                          : CustomColor.primaryLightTextColor.withOpacity(alpha:0.2),
+                          ? CustomColor.primaryDarkTextColor.withOpacity(0.2)
+                          : CustomColor.primaryLightTextColor.withOpacity(0.2),
                 ),
               ),
             ),

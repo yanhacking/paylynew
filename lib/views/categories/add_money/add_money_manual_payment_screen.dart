@@ -96,7 +96,7 @@ class AddMoneyManualPaymentScreen extends StatelessWidget {
         borderRadius: BorderRadius.circular(Dimensions.radius),
         border: Border.all(
           width: 0.8,
-          color: CustomColor.primaryLightColor.withOpacity(alpha:0.3),
+          color: CustomColor.primaryLightColor.withOpacity(0.3),
         ),
       ),
       child: Html(

@@ -29,7 +29,7 @@ class NotificationWidget extends StatelessWidget {
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(Dimensions.radius),
           color: Get.isDarkMode
-              ? CustomColor.whiteColor.withOpacity(alpha:0.06)
+              ? CustomColor.whiteColor.withOpacity(0.06)
               : CustomColor.whiteColor,
         ),
         padding: EdgeInsets.only(right: Dimensions.paddingSize * 0.2),
@@ -46,7 +46,7 @@ class NotificationWidget extends StatelessWidget {
                   ),
                   alignment: Alignment.center,
                   decoration: BoxDecoration(
-                    color: CustomColor.primaryLightColor.withOpacity(alpha:0.04),
+                    color: CustomColor.primaryLightColor.withOpacity(0.04),
                     borderRadius:
                         BorderRadius.circular(Dimensions.radius * 0.6),
                   ),

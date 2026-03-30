@@ -109,7 +109,7 @@ class _PrimaryInputWidgetState extends State<RecipientEmailInputWidget> {
             hintStyle: GoogleFonts.inter(
               fontSize: Dimensions.headingTextSize3,
               fontWeight: FontWeight.w500,
-              color: CustomColor.primaryTextColor.withOpacity(alpha:0.2),
+              color: CustomColor.primaryTextColor.withOpacity(0.2),
             ),
             border: OutlineInputBorder(
               borderRadius: BorderRadius.circular(Dimensions.radius * 0.5),
@@ -120,7 +120,7 @@ class _PrimaryInputWidgetState extends State<RecipientEmailInputWidget> {
             enabledBorder: OutlineInputBorder(
               borderRadius: BorderRadius.circular(Dimensions.radius * 0.5),
               borderSide: BorderSide(
-                color: CustomColor.primaryLightColor.withOpacity(alpha:0.2),
+                color: CustomColor.primaryLightColor.withOpacity(0.2),
               ),
             ),
             focusedBorder: OutlineInputBorder(

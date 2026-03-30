@@ -134,7 +134,7 @@ class MoneyTransferScreen extends StatelessWidget {
                                 .remainingController.senderAmount.value) <=
                             controller.monthlyLimit.value
                     ? CustomColor.primaryLightColor
-                    : CustomColor.primaryLightColor.withOpacity(alpha:0.3),
+                    : CustomColor.primaryLightColor.withOpacity(0.3),
                 title: Strings.send,
                 onPressed: () {
                   if (controller.isValidUser.value &&

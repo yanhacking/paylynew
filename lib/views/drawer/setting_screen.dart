@@ -72,7 +72,7 @@ class SettingScreen extends StatelessWidget {
         ),
         Divider(
           thickness: Dimensions.radius * .1,
-          color: CustomColor.whiteColor.withOpacity(alpha:.10),
+          color: CustomColor.whiteColor.withOpacity(.10),
         ),
       ],
     );
@@ -101,7 +101,7 @@ class SettingScreen extends StatelessWidget {
         verticalSpace(Dimensions.heightSize),
         Divider(
           height: 1.5,
-          color: CustomColor.primaryLightColor.withOpacity(alpha:0.1),
+          color: CustomColor.primaryLightColor.withOpacity(0.1),
         ),
       ],
     );

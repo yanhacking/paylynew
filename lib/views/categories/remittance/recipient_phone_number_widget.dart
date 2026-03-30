@@ -106,12 +106,12 @@ class _PrimaryInputWidgetState extends State<RecipientPhoneNumberInputWidget> {
             hintStyle: GoogleFonts.inter(
               fontSize: Dimensions.headingTextSize3,
               fontWeight: FontWeight.w500,
-              color: CustomColor.primaryTextColor.withOpacity(alpha:0.2),
+              color: CustomColor.primaryTextColor.withOpacity(0.2),
             ),
             enabledBorder: OutlineInputBorder(
                 borderRadius: BorderRadius.circular(Dimensions.radius * 0.7),
                 borderSide: BorderSide(
-                  color: CustomColor.primaryLightColor.withOpacity(alpha:0.2),
+                  color: CustomColor.primaryLightColor.withOpacity(0.2),
                 )),
             focusedBorder: OutlineInputBorder(
               borderRadius: BorderRadius.circular(Dimensions.radius * 0.7),

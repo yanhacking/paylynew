@@ -38,7 +38,7 @@ extension AmountInformation2 on Widget {
           ),
           Divider(
             thickness: 1,
-            color: CustomColor.primaryLightColor.withOpacity(alpha:0.2),
+            color: CustomColor.primaryLightColor.withOpacity(0.2),
           ),
           Padding(
             padding: EdgeInsets.only(
@@ -55,16 +55,16 @@ extension AmountInformation2 on Widget {
                     TitleHeading4Widget(
                       text: Strings.amount,
                       color: Get.isDarkMode
-                          ? CustomColor.primaryDarkTextColor.withOpacity(alpha:0.6)
-                          : CustomColor.primaryLightColor.withOpacity(alpha:
+                          ? CustomColor.primaryDarkTextColor.withOpacity(0.6)
+                          : CustomColor.primaryLightColor.withOpacity(
                               0.4,
                             ),
                     ),
                     TitleHeading3Widget(
                       text: enterAmount,
                       color: Get.isDarkMode
-                          ? CustomColor.primaryDarkTextColor.withOpacity(alpha:0.6)
-                          : CustomColor.primaryLightColor.withOpacity(alpha:
+                          ? CustomColor.primaryDarkTextColor.withOpacity(0.6)
+                          : CustomColor.primaryLightColor.withOpacity(
                               0.6,
                             ),
                       fontWeight: FontWeight.w600,
@@ -78,16 +78,16 @@ extension AmountInformation2 on Widget {
                     TitleHeading4Widget(
                       text: Strings.exchangeRate,
                       color: Get.isDarkMode
-                          ? CustomColor.primaryDarkTextColor.withOpacity(alpha:0.6)
-                          : CustomColor.primaryLightColor.withOpacity(alpha:
+                          ? CustomColor.primaryDarkTextColor.withOpacity(0.6)
+                          : CustomColor.primaryLightColor.withOpacity(
                               0.4,
                             ),
                     ),
                     TitleHeading3Widget(
                       text: exchangeRate,
                       color: Get.isDarkMode
-                          ? CustomColor.primaryDarkTextColor.withOpacity(alpha:0.6)
-                          : CustomColor.primaryLightColor.withOpacity(alpha:
+                          ? CustomColor.primaryDarkTextColor.withOpacity(0.6)
+                          : CustomColor.primaryLightColor.withOpacity(
                               0.6,
                             ),
                       fontWeight: FontWeight.w600,
@@ -101,16 +101,16 @@ extension AmountInformation2 on Widget {
                     TitleHeading4Widget(
                       text: Strings.conversionAmount,
                       color: Get.isDarkMode
-                          ? CustomColor.primaryDarkTextColor.withOpacity(alpha:0.6)
-                          : CustomColor.primaryLightColor.withOpacity(alpha:
+                          ? CustomColor.primaryDarkTextColor.withOpacity(0.6)
+                          : CustomColor.primaryLightColor.withOpacity(
                               0.4,
                             ),
                     ),
                     TitleHeading3Widget(
                       text: conversionAmount,
                       color: Get.isDarkMode
-                          ? CustomColor.primaryDarkTextColor.withOpacity(alpha:0.6)
-                          : CustomColor.primaryLightColor.withOpacity(alpha:
+                          ? CustomColor.primaryDarkTextColor.withOpacity(0.6)
+                          : CustomColor.primaryLightColor.withOpacity(
                               0.6,
                             ),
                       fontWeight: FontWeight.w600,
@@ -124,16 +124,16 @@ extension AmountInformation2 on Widget {
                     TitleHeading4Widget(
                       text: Strings.totalCharge,
                       color: Get.isDarkMode
-                          ? CustomColor.primaryDarkTextColor.withOpacity(alpha:0.6)
-                          : CustomColor.primaryLightColor.withOpacity(alpha:
+                          ? CustomColor.primaryDarkTextColor.withOpacity(0.6)
+                          : CustomColor.primaryLightColor.withOpacity(
                               0.4,
                             ),
                     ),
                     TitleHeading3Widget(
                       text: totalCharge,
                       color: Get.isDarkMode
-                          ? CustomColor.primaryDarkTextColor.withOpacity(alpha:0.6)
-                          : CustomColor.primaryLightColor.withOpacity(alpha:
+                          ? CustomColor.primaryDarkTextColor.withOpacity(0.6)
+                          : CustomColor.primaryLightColor.withOpacity(
                               0.6,
                             ),
                       fontWeight: FontWeight.w600,
@@ -147,16 +147,16 @@ extension AmountInformation2 on Widget {
                     TitleHeading4Widget(
                       text: Strings.totalPayable,
                       color: Get.isDarkMode
-                          ? CustomColor.primaryDarkTextColor.withOpacity(alpha:0.6)
-                          : CustomColor.primaryLightColor.withOpacity(alpha:
+                          ? CustomColor.primaryDarkTextColor.withOpacity(0.6)
+                          : CustomColor.primaryLightColor.withOpacity(
                               0.4,
                             ),
                     ),
                     TitleHeading3Widget(
                       text: totalPayable,
                       color: Get.isDarkMode
-                          ? CustomColor.primaryDarkTextColor.withOpacity(alpha:0.6)
-                          : CustomColor.primaryLightColor.withOpacity(alpha:
+                          ? CustomColor.primaryDarkTextColor.withOpacity(0.6)
+                          : CustomColor.primaryLightColor.withOpacity(
                               0.6,
                             ),
                       fontWeight: FontWeight.w600,

@@ -35,7 +35,7 @@ class SaveRecipientWidget extends StatelessWidget {
       child: Container(
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(Dimensions.radius),
-          color: CustomColor.primaryLightColor.withOpacity(alpha:0.05),
+          color: CustomColor.primaryLightColor.withOpacity(0.05),
         ),
         padding: EdgeInsets.symmetric(horizontal: Dimensions.paddingSize * 0.2),
         height: Dimensions.heightSize * 6,
@@ -66,7 +66,7 @@ class SaveRecipientWidget extends StatelessWidget {
                         decoration: BoxDecoration(
                             borderRadius:
                                 BorderRadius.circular(Dimensions.radius),
-                            color: CustomColor.yellowColor.withOpacity(alpha:.5)),
+                            color: CustomColor.yellowColor.withOpacity(.5)),
                         child: TitleHeading4Widget(
                           text: type,
                         ),
@@ -104,7 +104,7 @@ class SaveRecipientWidget extends StatelessWidget {
 
   _showDialog(BuildContext context) {
     showDialog(
-        barrierColor: CustomColor.whiteColor.withOpacity(alpha:0.8),
+        barrierColor: CustomColor.whiteColor.withOpacity(0.8),
         context: context,
         barrierDismissible: true,
         builder: (context) {
@@ -123,7 +123,7 @@ class SaveRecipientWidget extends StatelessWidget {
                     (index) => Container(
                       alignment: Alignment.centerLeft,
                       width: MediaQuery.of(context).size.width * 0.6,
-                      color: CustomColor.primaryLightColor.withOpacity(alpha:0.1),
+                      color: CustomColor.primaryLightColor.withOpacity(0.1),
                       padding: EdgeInsets.symmetric(
                           horizontal: Dimensions.widthSize * 1,
                           vertical: Dimensions.heightSize * 0.1),
@@ -145,7 +145,7 @@ class SaveRecipientWidget extends StatelessWidget {
                           )),
                     ).customGlassWidget(
                         tintColor:
-                            CustomColor.primaryLightColor.withOpacity(alpha:0.2),
+                            CustomColor.primaryLightColor.withOpacity(0.2),
                         clipBorderRadius: BorderRadius.only(
                           bottomLeft: Radius.circular(
                               index == 2 ? Dimensions.radius * 0.6 : 0),

@@ -84,7 +84,7 @@ class _ImageWidgetState extends State<ImageWidget> {
               text: widget.optionalLabel,
               fontWeight: FontWeight.w600,
               fontSize: Dimensions.headingTextSize5,
-              color: CustomColor.primaryLightColor.withOpacity(alpha:.8),
+              color: CustomColor.primaryLightColor.withOpacity(.8),
             ),
           verticalSpace(Dimensions.marginBetweenInputTitleAndBox),
           Container(

@@ -22,8 +22,8 @@ class StatusDataWidget extends StatelessWidget {
               Icon(
                 icon,
                 color: Get.isDarkMode
-                    ? CustomColor.whiteColor.withOpacity(alpha:0.4)
-                    : CustomColor.blackColor.withOpacity(alpha:0.4),
+                    ? CustomColor.whiteColor.withOpacity(0.4)
+                    : CustomColor.blackColor.withOpacity(0.4),
                 size: Dimensions.iconSizeLarge * 1.5,
               ),
               verticalSpace(Dimensions.paddingSize * 0.3),

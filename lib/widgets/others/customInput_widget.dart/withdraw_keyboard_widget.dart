@@ -350,11 +350,11 @@ class WithdrawKeyboardWidget extends StatelessWidget {
             children: [
               TitleHeading5Widget(
                 text: Strings.remainingDailyLimit,
-                color: CustomColor.primaryLightColor.withOpacity(alpha:0.6),
+                color: CustomColor.primaryLightColor.withOpacity(0.6),
               ),
               horizontalSpace(Dimensions.widthSize),
               TitleHeading5Widget(
-                  color: CustomColor.primaryLightColor.withOpacity(alpha:0.6),
+                  color: CustomColor.primaryLightColor.withOpacity(0.6),
                   text:
                       ": ${controller.remainingController.remainingDailyLimit.value.toStringAsFixed(precision)} ${controller.selectMainWallet.value!.currency.code}"),
             ],
@@ -363,11 +363,11 @@ class WithdrawKeyboardWidget extends StatelessWidget {
             mainAxisAlignment: mainCenter,
             children: [
               TitleHeading5Widget(
-                  color: CustomColor.primaryLightColor.withOpacity(alpha:0.6),
+                  color: CustomColor.primaryLightColor.withOpacity(0.6),
                   text: Strings.remainingMonthlyLimit),
               horizontalSpace(Dimensions.widthSize),
               TitleHeading5Widget(
-                  color: CustomColor.primaryLightColor.withOpacity(alpha:0.6),
+                  color: CustomColor.primaryLightColor.withOpacity(0.6),
                   text:
                       ": ${controller.remainingController.remainingMonthLyLimit.value.toStringAsFixed(precision)} ${controller.selectMainWallet.value!.currency.code}"),
             ],

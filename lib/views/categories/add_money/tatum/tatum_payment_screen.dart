@@ -84,7 +84,7 @@ class TatumPaymentScreen extends StatelessWidget {
             border: Border.all(
               color: Get.isDarkMode
                   ? CustomColor.whiteColor
-                  : CustomColor.primaryDarkColor.withOpacity(alpha:0.4),
+                  : CustomColor.primaryDarkColor.withOpacity(0.4),
               width: 0.5,
             ),
             borderRadius: BorderRadius.circular(Dimensions.radius * 0.5),

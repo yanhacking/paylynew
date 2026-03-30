@@ -78,7 +78,7 @@ class DashboardScreen extends StatelessWidget {
       padding: EdgeInsets.all(Dimensions.paddingSize * 0.5),
       decoration: BoxDecoration(
         color: Get.isDarkMode
-            ? CustomColor.whiteColor.withOpacity(alpha:0.06)
+            ? CustomColor.whiteColor.withOpacity(0.06)
             : CustomColor.whiteColor,
         borderRadius: BorderRadius.circular(Dimensions.radius * 1.4),
       ),
@@ -257,7 +257,7 @@ class DashboardScreen extends StatelessWidget {
                 ),
                 decoration: BoxDecoration(
                   color: Get.isDarkMode
-                      ? CustomColor.whiteColor.withOpacity(alpha:0.06)
+                      ? CustomColor.whiteColor.withOpacity(0.06)
                       : CustomColor.whiteColor,
                   borderRadius: BorderRadius.circular(Dimensions.radius * 1.4),
                 ),
@@ -330,7 +330,7 @@ class DashboardScreen extends StatelessWidget {
             side: BorderSide(
                 color: controller.switchCurrency.value == 0
                     ? Colors.transparent
-                    : Colors.grey.withOpacity(alpha:0.2)),
+                    : Colors.grey.withOpacity(0.2)),
             label: const TitleHeading4Widget(
               text: Strings.fiatCurrency,
               fontWeight: FontWeight.w500,
@@ -354,7 +354,7 @@ class DashboardScreen extends StatelessWidget {
             side: BorderSide(
                 color: controller.switchCurrency.value == 1
                     ? Colors.transparent
-                    : Colors.grey.withOpacity(alpha:0.2)),
+                    : Colors.grey.withOpacity(0.2)),
             label: const TitleHeading4Widget(
               text: Strings.cryptoCurrency,
               fontWeight: FontWeight.w500,

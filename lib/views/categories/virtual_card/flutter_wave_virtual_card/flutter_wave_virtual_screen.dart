@@ -114,7 +114,7 @@ class FlutterWaveVirtualCardScreen extends StatelessWidget {
                           vertical: Dimensions.marginSizeVertical * 0.2,
                           horizontal: Dimensions.marginSizeHorizontal * 0.2),
                       decoration: BoxDecoration(
-                        color: CustomColor.whiteColor.withOpacity(alpha:0.3),
+                        color: CustomColor.whiteColor.withOpacity(0.3),
                         shape: BoxShape.circle,
                       ),
                     );
@@ -163,7 +163,7 @@ class FlutterWaveVirtualCardScreen extends StatelessWidget {
                 fontFamily: "AgencyFB",
                 fontSize: Dimensions.headingTextSize2 * 0.8,
                 fontWeight: FontWeight.w700,
-                color: CustomColor.whiteColor.withOpacity(alpha:0.6),
+                color: CustomColor.whiteColor.withOpacity(0.6),
               ),
             ),
             verticalSpace(Dimensions.heightSize * 0.5),
@@ -184,7 +184,7 @@ class FlutterWaveVirtualCardScreen extends StatelessWidget {
                     CustomTitleHeadingWidget(
                       text: Strings.expiryDate,
                       style: CustomStyle.f20w600pri.copyWith(
-                          color: CustomColor.whiteColor.withOpacity(alpha:0.6),
+                          color: CustomColor.whiteColor.withOpacity(0.6),
                           fontWeight: FontWeight.w500,
                           fontSize: Dimensions.headingTextSize5),
                     ),
@@ -231,7 +231,7 @@ class FlutterWaveVirtualCardScreen extends StatelessWidget {
               CustomTitleHeadingWidget(
                 text: Strings.cvc,
                 style: CustomStyle.f20w600pri.copyWith(
-                    color: CustomColor.whiteColor.withOpacity(alpha:0.6),
+                    color: CustomColor.whiteColor.withOpacity(0.6),
                     fontWeight: FontWeight.w500,
                     fontSize: Dimensions.headingTextSize5),
               ),
@@ -290,7 +290,7 @@ class FlutterWaveVirtualCardScreen extends StatelessWidget {
                 fontFamily: "AgencyFB",
                 fontSize: Dimensions.headingTextSize2,
                 fontWeight: FontWeight.w700,
-                color: CustomColor.whiteColor.withOpacity(alpha:0.6),
+                color: CustomColor.whiteColor.withOpacity(0.6),
               ),
             ),
             verticalSpace(Dimensions.heightSize * 1.5),
@@ -308,7 +308,7 @@ class FlutterWaveVirtualCardScreen extends StatelessWidget {
                     CustomTitleHeadingWidget(
                       text: Strings.expiryDate,
                       style: CustomStyle.f20w600pri.copyWith(
-                          color: CustomColor.whiteColor.withOpacity(alpha:0.6),
+                          color: CustomColor.whiteColor.withOpacity(0.6),
                           fontWeight: FontWeight.w500,
                           fontSize: Dimensions.headingTextSize5),
                     ),
@@ -354,7 +354,7 @@ class FlutterWaveVirtualCardScreen extends StatelessWidget {
               CustomTitleHeadingWidget(
                 text: Strings.cvc,
                 style: CustomStyle.f20w600pri.copyWith(
-                    color: CustomColor.whiteColor.withOpacity(alpha:0.6),
+                    color: CustomColor.whiteColor.withOpacity(0.6),
                     fontWeight: FontWeight.w500,
                     fontSize: Dimensions.headingTextSize5),
               ),

@@ -85,7 +85,7 @@ class SendMoneyLogScreen extends StatelessWidget {
                 child: Container(
                   padding: EdgeInsets.all(Dimensions.paddingSize * .6),
                   decoration: BoxDecoration(
-                    color: CustomColor.primaryLightColor.withOpacity(alpha:0.9),
+                    color: CustomColor.primaryLightColor.withOpacity(0.9),
                     borderRadius: BorderRadius.circular(Dimensions.radius),
                   ),
                   child: Column(

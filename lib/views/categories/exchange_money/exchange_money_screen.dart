@@ -112,7 +112,7 @@ class ExchangeMoneyScreen extends StatelessWidget {
                                 .remainingController.senderAmount.value) <=
                             controller.monthlyLimit.value
                     ? CustomColor.primaryLightColor
-                    : CustomColor.primaryLightColor.withOpacity(alpha:0.3),
+                    : CustomColor.primaryLightColor.withOpacity(0.3),
                 onPressed: () {
                   if (double.parse(controller
                               .remainingController.senderAmount.value) <=
@@ -147,8 +147,8 @@ class ExchangeMoneyScreen extends StatelessWidget {
                 textAlign: TextAlign.left,
                 fontWeight: FontWeight.w500,
                 color: Get.isDarkMode
-                    ? CustomColor.primaryDarkTextColor.withOpacity(alpha:0.8)
-                    : CustomColor.primaryLightColor.withOpacity(alpha:0.6),
+                    ? CustomColor.primaryDarkTextColor.withOpacity(0.8)
+                    : CustomColor.primaryLightColor.withOpacity(0.6),
               ),
               TitleHeading5Widget(
                 text:
@@ -156,8 +156,8 @@ class ExchangeMoneyScreen extends StatelessWidget {
                 textAlign: TextAlign.left,
                 fontWeight: FontWeight.w500,
                 color: Get.isDarkMode
-                    ? CustomColor.primaryDarkTextColor.withOpacity(alpha:0.8)
-                    : CustomColor.primaryLightColor.withOpacity(alpha:0.6),
+                    ? CustomColor.primaryDarkTextColor.withOpacity(0.8)
+                    : CustomColor.primaryLightColor.withOpacity(0.6),
               ),
             ],
           ),
@@ -170,8 +170,8 @@ class ExchangeMoneyScreen extends StatelessWidget {
                   textAlign: TextAlign.left,
                   fontWeight: FontWeight.w500,
                   color: Get.isDarkMode
-                      ? CustomColor.primaryDarkTextColor.withOpacity(alpha:0.8)
-                      : CustomColor.primaryLightColor.withOpacity(alpha:0.6),
+                      ? CustomColor.primaryDarkTextColor.withOpacity(0.8)
+                      : CustomColor.primaryLightColor.withOpacity(0.6),
                 ),
                 TitleHeading5Widget(
                   text:
@@ -179,8 +179,8 @@ class ExchangeMoneyScreen extends StatelessWidget {
                   textAlign: TextAlign.left,
                   fontWeight: FontWeight.w500,
                   color: Get.isDarkMode
-                      ? CustomColor.primaryDarkTextColor.withOpacity(alpha:0.8)
-                      : CustomColor.primaryLightColor.withOpacity(alpha:0.6),
+                      ? CustomColor.primaryDarkTextColor.withOpacity(0.8)
+                      : CustomColor.primaryLightColor.withOpacity(0.6),
                 ),
               ],
             ),

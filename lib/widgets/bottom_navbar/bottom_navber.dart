@@ -33,7 +33,7 @@ buildBottomNavigationMenu(context, bottomNavBarController) {
               Get.toNamed(Routes.qRCodeScreen); 
             },
             child: CircleAvatar(
-              backgroundColor: CustomColor.whiteColor.withOpacity(alpha:
+              backgroundColor: CustomColor.whiteColor.withOpacity(
                 0.1,
               ),
               radius: 26,
@@ -61,7 +61,7 @@ bottomItemWidget(var icon, bottomNavBarController, page) {
         icon,
         color: bottomNavBarController.selectedIndex.value == page
             ? CustomColor.whiteColor
-            : CustomColor.whiteColor.withOpacity(alpha:0.4),
+            : CustomColor.whiteColor.withOpacity(0.4),
         height: Dimensions.iconSizeLarge,
       ),
     ),

@@ -64,7 +64,7 @@ class _UploadImageWidgetState extends State<UploadImageWidget> {
                   text: "(${Strings.optional.tr})",
                   fontWeight: FontWeight.w600,
                   fontSize: Dimensions.headingTextSize4,
-                  color: CustomColor.primaryLightColor.withOpacity(alpha:.8),
+                  color: CustomColor.primaryLightColor.withOpacity(.8),
                 ),
               ),
             ],
@@ -78,7 +78,7 @@ class _UploadImageWidgetState extends State<UploadImageWidget> {
               vertical: Dimensions.paddingHorizontalSize * .25,
             ),
             radius: Radius.circular(Dimensions.radius * 0.8),
-            color: CustomColor.primaryLightTextColor.withOpacity(alpha:0.15),
+            color: CustomColor.primaryLightTextColor.withOpacity(0.15),
             strokeWidth: 2,
             child: Container(
               // alignment: Alignment.bottomCenter,

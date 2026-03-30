@@ -72,7 +72,7 @@ class OnBoardController extends GetxController {
         width: 7.17,
         color: index == selectedIndex.value
             ? CustomColor.blackColor
-            : CustomColor.primaryTextColor.withOpacity(alpha:0.5),
+            : CustomColor.primaryTextColor.withOpacity(0.5),
         path: Assets.icon.rightArrow,
       ),
     );

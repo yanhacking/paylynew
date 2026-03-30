@@ -88,8 +88,8 @@ class _CustomDropDownState<T extends DropdownModel>
                 Border.all(
                   color: widget.borderColor ??
                       (_selectedItem != null
-                          ? CustomColor.primaryLightColor.withOpacity(alpha:0.2)
-                          : CustomColor.primaryLightColor.withOpacity(alpha:0.2)),
+                          ? CustomColor.primaryLightColor.withOpacity(0.2)
+                          : CustomColor.primaryLightColor.withOpacity(0.2)),
                   width: 1.5,
                 )
             : null,

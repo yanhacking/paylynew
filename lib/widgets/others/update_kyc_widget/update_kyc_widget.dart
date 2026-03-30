@@ -77,7 +77,7 @@ class _DropFileState extends State<UpdateKycImageWidget> {
         child: DottedBorder(
           dashPattern: const [4, 2],
           strokeWidth: 2,
-          color: CustomColor.primaryLightColor.withOpacity(alpha:0.2),
+          color: CustomColor.primaryLightColor.withOpacity(0.2),
           child: Container(
             height: Dimensions.heightSize * 7,
             alignment: Alignment.center,

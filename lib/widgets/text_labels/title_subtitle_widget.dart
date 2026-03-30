@@ -30,7 +30,7 @@ class TitleSubTitleWidget extends StatelessWidget {
           style: CustomStyle.darkHeading4TextStyle.copyWith(
             fontSize: Dimensions.headingTextSize4,
             fontWeight: FontWeight.w500,
-            color: CustomColor.primaryLightTextColor.withOpacity(alpha:0.5),
+            color: CustomColor.primaryLightTextColor.withOpacity(0.5),
           ),
         ),
       ],

@@ -83,7 +83,7 @@ class MyWalletScreen extends StatelessWidget {
             style: CustomStyle.darkHeading4TextStyle.copyWith(
                 fontSize: Dimensions.headingTextSize3,
                 fontWeight: FontWeight.w500,
-                color: CustomColor.whiteColor.withOpacity(alpha:0.6)),
+                color: CustomColor.whiteColor.withOpacity(0.6)),
           ),
           verticalSpace(Dimensions.heightSize),
           //receive and send
@@ -103,12 +103,12 @@ class MyWalletScreen extends StatelessWidget {
                     TitleHeading2Widget(
                       text: Strings.uSD541,
                       textAlign: TextAlign.center,
-                      color: CustomColor.whiteColor.withOpacity(alpha:0.6),
+                      color: CustomColor.whiteColor.withOpacity(0.6),
                     ),
                     TitleHeading4Widget(
                       text: Strings.totalReceive,
                       textAlign: TextAlign.center,
-                      color: CustomColor.whiteColor.withOpacity(alpha:0.4),
+                      color: CustomColor.whiteColor.withOpacity(0.4),
                     ),
                   ],
                 ),
@@ -120,12 +120,12 @@ class MyWalletScreen extends StatelessWidget {
                     TitleHeading2Widget(
                       text: Strings.uSD541,
                       textAlign: TextAlign.center,
-                      color: CustomColor.whiteColor.withOpacity(alpha:0.6),
+                      color: CustomColor.whiteColor.withOpacity(0.6),
                     ),
                     TitleHeading4Widget(
                       text: Strings.totalSend,
                       textAlign: TextAlign.center,
-                      color: CustomColor.whiteColor.withOpacity(alpha:0.4),
+                      color: CustomColor.whiteColor.withOpacity(0.4),
                     ),
                   ],
                 )
